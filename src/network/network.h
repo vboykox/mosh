@@ -126,7 +126,7 @@ namespace Network {
      *
      * We may have to implement ICMP-less PMTUD (RFC 4821) eventually.
      */
-    static const int DEFAULT_IPV4_MTU = 1280;
+    static const int DEFAULT_IPV4_MTU = 1200;
     /* IPv6 MTU. Use the guaranteed minimum to avoid fragmentation. */
     static const int DEFAULT_IPV6_MTU = 1280;
 
